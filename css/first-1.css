@@ -1,0 +1,55 @@
+#header{
+    display:grid;
+    grid-template-columns:0.25fr 0.5fr 0.25fr;
+    grid-template-areas:
+    "a b c"; 
+    height:20vh;
+    border-style:solid;
+    border-radius:20px;
+    background-image: url("../img/grass.jpg");
+}
+html{
+    cursor:url(warm3.cur), url(https://www2.cs.ccu.edu.tw/~ssh107u/warm3.cur), auto;
+}
+#content{
+    display:grid;
+    grid-template-columns:0.2fr 0.001fr 0.8fr;
+    grid-template-areas:
+    "d e f"; 
+    height:100%;
+    margin-left: 3vw;
+    margin-right:3vw;
+    border-style:dashed;
+    border-radius:50px;
+    border-color:greenyellow;
+}
+#sub{
+    display: grid;
+    grid-template-columns:30vw auto;
+    grid-template-areas:
+    "g h"; 
+    margin-left:20vw;
+}
+#subheader{
+    text-align:center; 
+    margin-top:2vh; 
+    font-weight:bold; 
+    color:#009700; 
+    font-family:'DFKai-sb',Microsoft JhengHei,sans-serif; 
+}
+.list{
+    margin-left:15vw; 
+    font-size:120%; 
+    font-family:'DFKai-sb',Helvetica, sans-serif; 
+    color:#009700; width:40vw;
+}
+#vertical{
+    grid-area:e; 
+    background-color:green; 
+    margin-top:3vh; 
+    margin-bottom:3vh;  
+    float:left; 
+    border-style:double; 
+    border-width:medium; 
+    border-color:green;
+}
